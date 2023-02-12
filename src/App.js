@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import Container from 'react-bootstrap/Container';
-import Cards from './Cards';
+import Container from "react-bootstrap/Container";
+import Cards from "./Cards";
 
-import './App.css';
+import "./App.css";
 
 const Title = () => {
-  return(
-  <Container className="titleContainer">
-    Guilherme Deon de Faria
-  </Container>
+  return (
+    <Container className="titleContainer">Guilherme Deon de Faria</Container>
   );
 };
 
 const App = () => (
   <Container>
-  <Title></Title>
-  <Cards />
-
+    <Title></Title>
+    <Cards />
   </Container>
 );
 
